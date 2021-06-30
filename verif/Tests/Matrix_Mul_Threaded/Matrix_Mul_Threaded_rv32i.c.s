@@ -111,12 +111,6 @@ main:
 	sw	a5,-28(s0)
 	li	a5,11
 	sw	a5,-24(s0)
-	li	a5,13
-	sw	a5,-20(s0)
-	li	a5,14
-	sw	a5,-16(s0)
-	li	a5,15
-	sw	a5,-12(s0)
 	li	a5,16
 	sw	a5,-92(s0)
 	li	a5,15
@@ -135,12 +129,6 @@ main:
 	sw	a5,-64(s0)
 	li	a5,6
 	sw	a5,-60(s0)
-	li	a5,4
-	sw	a5,-56(s0)
-	li	a5,3
-	sw	a5,-48(s0)
-	li	a5,2
-	sw	a5,-48(s0)
 	lw	a4,-20(s0)
 	li	a5,2
 	beq	a4,a5,.L7
